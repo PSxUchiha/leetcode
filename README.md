@@ -9,6 +9,7 @@ leetcode stuff
 | [0023-merge-k-sorted-lists](https://github.com/PSxUchiha/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/PSxUchiha/leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/PSxUchiha/leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0206-reverse-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0234-palindrome-linked-list) |
 ## Two Pointers
 |  |
@@ -34,5 +35,6 @@ leetcode stuff
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
