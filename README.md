@@ -6,6 +6,7 @@ leetcode stuff
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/PSxUchiha/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0023-merge-k-sorted-lists](https://github.com/PSxUchiha/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/PSxUchiha/leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/PSxUchiha/leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
@@ -15,6 +16,7 @@ leetcode stuff
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/PSxUchiha/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/PSxUchiha/leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0234-palindrome-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0234-palindrome-linked-list) |
 ## Divide and Conquer
