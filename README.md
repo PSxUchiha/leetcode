@@ -48,6 +48,7 @@ leetcode stuff
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/PSxUchiha/leetcode/tree/master/0007-reverse-integer) |
 | [0060-permutation-sequence](https://github.com/PSxUchiha/leetcode/tree/master/0060-permutation-sequence) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PSxUchiha/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
