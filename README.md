@@ -41,12 +41,14 @@ leetcode stuff
 ## Recursion
 |  |
 | ------- |
+| [0060-permutation-sequence](https://github.com/PSxUchiha/leetcode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/PSxUchiha/leetcode/tree/master/0234-palindrome-linked-list) |
 ## Math
 |  |
 | ------- |
+| [0060-permutation-sequence](https://github.com/PSxUchiha/leetcode/tree/master/0060-permutation-sequence) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PSxUchiha/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Hash Table
