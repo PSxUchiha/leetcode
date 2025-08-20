@@ -54,6 +54,7 @@ leetcode stuff
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/PSxUchiha/leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/PSxUchiha/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/PSxUchiha/leetcode/tree/master/0141-linked-list-cycle) |
 ## String
@@ -68,4 +69,8 @@ leetcode stuff
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/PSxUchiha/leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
