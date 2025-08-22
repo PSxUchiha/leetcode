@@ -49,6 +49,7 @@ leetcode stuff
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/PSxUchiha/leetcode/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/PSxUchiha/leetcode/tree/master/0012-integer-to-roman) |
 | [0060-permutation-sequence](https://github.com/PSxUchiha/leetcode/tree/master/0060-permutation-sequence) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PSxUchiha/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -57,12 +58,14 @@ leetcode stuff
 | ------- |
 | [0001-two-sum](https://github.com/PSxUchiha/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/PSxUchiha/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/PSxUchiha/leetcode/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/PSxUchiha/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/PSxUchiha/leetcode/tree/master/0141-linked-list-cycle) |
 ## String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/PSxUchiha/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/PSxUchiha/leetcode/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/PSxUchiha/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 ## Backtracking
 |  |
