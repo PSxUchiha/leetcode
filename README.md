@@ -4,7 +4,7 @@
 
 ![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[8,8,3]}]}}&width=200&height=200)
 
-**Total Solved:** 20
+**Total Solved:** 21
 
 
 <!---LeetCode Topics Start-->
@@ -116,3 +116,4 @@
 | ------- |
 | [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
+![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[9,9,3]}]}}&width=200&height=200)
