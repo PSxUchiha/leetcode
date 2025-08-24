@@ -1,7 +1,10 @@
 # leetcode
-### LeetCode Progress
 
-![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Solved','Easy','Medium','Hard'],datasets:[{data:[19,8,8,3]}]}})
+# LeetCode Progress
+
+![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[8,8,3]}]} }&width=200&height=200)
+
+**Total Solved:** 19
 
 
 <!---LeetCode Topics Start-->
