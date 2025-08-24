@@ -2,7 +2,7 @@
 
 # LeetCode Progress
 
-![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[8,8,3]}]} }&width=200&height=200)
+![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[8,8,3]}]}}&width=200&height=200)
 
 **Total Solved:** 19
 
