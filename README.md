@@ -61,6 +61,7 @@
 | [0012-integer-to-roman](https://github.com/PSxUchiha/leetcode/tree/master/0012-integer-to-roman) |
 | [0043-multiply-strings](https://github.com/PSxUchiha/leetcode/tree/master/0043-multiply-strings) |
 | [0060-permutation-sequence](https://github.com/PSxUchiha/leetcode/tree/master/0060-permutation-sequence) |
+| [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PSxUchiha/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Hash Table
@@ -93,6 +94,7 @@
 | [0001-two-sum](https://github.com/PSxUchiha/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/PSxUchiha/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0136-single-number](https://github.com/PSxUchiha/leetcode/tree/master/0136-single-number) |
+| [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
 ## Sliding Window
 |  |
 | ------- |
@@ -105,4 +107,12 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/PSxUchiha/leetcode/tree/master/0043-multiply-strings) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
