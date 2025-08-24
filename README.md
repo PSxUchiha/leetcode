@@ -1,6 +1,4 @@
-# leetcode
-
-### LeetCode Progress
+# LeetCode Progress
 
 Total Solved: 21
 Easy: 9 | Medium: 9 | Hard: 3
