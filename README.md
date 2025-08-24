@@ -85,12 +85,14 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/PSxUchiha/leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/PSxUchiha/leetcode/tree/master/0231-power-of-two) |
 ## Array
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/PSxUchiha/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/PSxUchiha/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0136-single-number](https://github.com/PSxUchiha/leetcode/tree/master/0136-single-number) |
 ## Sliding Window
 |  |
 | ------- |
