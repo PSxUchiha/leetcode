@@ -1,4 +1,4 @@
-name: Update README
+name: Update README with LeetCode Stats
 
 on:
   push:
@@ -7,51 +7,44 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 👈 allow pushing commits
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # use repo token
-      - name: Read stats.json
-        id: stats
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update stats in README
         run: |
-          solved=$(jq '.leetcode.solved' stats.json)
-          easy=$(jq '.leetcode.easy' stats.json)
-          medium=$(jq '.leetcode.medium' stats.json)
-          hard=$(jq '.leetcode.hard' stats.json)
+          TOTAL=$(jq '.leetcode.solved' stats.json)
+          EASY=$(jq '.leetcode.easy' stats.json)
+          MEDIUM=$(jq '.leetcode.medium' stats.json)
+          HARD=$(jq '.leetcode.hard' stats.json)
 
-          echo "solved=$solved" >> $GITHUB_OUTPUT
-          echo "easy=$easy" >> $GITHUB_OUTPUT
-          echo "medium=$medium" >> $GITHUB_OUTPUT
-          echo "hard=$hard" >> $GITHUB_OUTPUT
+          # Build stats block
+          STATS="Total Solved: $TOTAL\nEasy: $EASY | Medium: $MEDIUM | Hard: $HARD"
 
-      - name: Update README.md
-        run: |
-          chart_url="https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[${{ steps.stats.outputs.easy }},${{ steps.stats.outputs.medium }},${{ steps.stats.outputs.hard }}]}]}}&width=200&height=200"
-
-          # Replace or insert chart line
-          if grep -q "![LeetCode Stats]" README.md; then
-            sed -i "s|!\[LeetCode Stats\](.*)|![LeetCode Stats]($chart_url)|" README.md
+          # Replace or append block in README
+          if grep -q "Total Solved:" README.md; then
+            # Replace both lines (Total Solved + difficulty line)
+            sed -i "/Total Solved:/c\\Total Solved: $TOTAL" README.md
+            if grep -q "Easy:" README.md; then
+              sed -i "/Easy:/c\\Easy: $EASY | Medium: $MEDIUM | Hard: $HARD" README.md
+            else
+              sed -i "/Total Solved:/a Easy: $EASY | Medium: $MEDIUM | Hard: $HARD" README.md
+            fi
           else
-            echo "![LeetCode Stats]($chart_url)" >> README.md
+            echo -e "$STATS" >> README.md
           fi
 
-          # Replace or insert solved line
-          if grep -q "**Total Solved:**" README.md; then
-            sed -i "s|**Total Solved:.*|**Total Solved:** ${{ steps.stats.outputs.solved }}|" README.md
-          else
-            echo "**Total Solved:** ${{ steps.stats.outputs.solved }}" >> README.md
-          fi
-
-      - name: Commit and Push changes
+      - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Update README with latest stats" || echo "No changes to commit"
           git push
