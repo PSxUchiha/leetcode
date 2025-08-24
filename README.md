@@ -2,8 +2,8 @@
 
 ### LeetCode Progress
 
-Total Solved: 19
-Easy: 8 | Medium: 8 | Hard: 3
+Total Solved: 21
+Easy: 9 | Medium: 9 | Hard: 3
 
 
 <!---LeetCode Topics Start-->
