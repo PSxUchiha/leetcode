@@ -1,5 +1,8 @@
 # leetcode
-leetcode stuff
+### LeetCode Progress
+
+![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Solved','Easy','Medium','Hard'],datasets:[{data:[19,8,8,3]}]}})
+
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
