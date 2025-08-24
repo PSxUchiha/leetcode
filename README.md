@@ -115,4 +115,3 @@ Easy: 9 | Medium: 9 | Hard: 3
 | ------- |
 | [0204-count-primes](https://github.com/PSxUchiha/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
-![LeetCode Stats](https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[9,9,3]}]}}&width=200&height=200)
