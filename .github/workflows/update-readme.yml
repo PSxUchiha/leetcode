@@ -1,16 +1,17 @@
-name: Update README with LeetCode Stats
+name: Update README
 
 on:
   push:
     paths:
-      - "stats.json"
+      - stats.json
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Read stats.json
         id: stats
@@ -19,6 +20,7 @@ jobs:
           easy=$(jq '.leetcode.easy' stats.json)
           medium=$(jq '.leetcode.medium' stats.json)
           hard=$(jq '.leetcode.hard' stats.json)
+
           echo "solved=$solved" >> $GITHUB_OUTPUT
           echo "easy=$easy" >> $GITHUB_OUTPUT
           echo "medium=$medium" >> $GITHUB_OUTPUT
@@ -26,13 +28,26 @@ jobs:
 
       - name: Update README.md
         run: |
-          chart_url="https://quickchart.io/chart?c={type:'pie',data:{labels:['Solved','Easy','Medium','Hard'],datasets:[{data:[${{ steps.stats.outputs.solved }},${{ steps.stats.outputs.easy }},${{ steps.stats.outputs.medium }},${{ steps.stats.outputs.hard }}]}]}}"
-          sed -i "s|!\[LeetCode Stats\](.*)|![LeetCode Stats]($chart_url)|" README.md
+          chart_url="https://quickchart.io/chart?c={type:'pie',data:{labels:['Easy','Medium','Hard'],datasets:[{data:[${{ steps.stats.outputs.easy }},${{ steps.stats.outputs.medium }},${{ steps.stats.outputs.hard }}]}]}}&width=200&height=200"
 
-      - name: Commit changes
+          # Replace or insert chart line
+          if grep -q "![LeetCode Stats]" README.md; then
+            sed -i "s|!\[LeetCode Stats\](.*)|![LeetCode Stats]($chart_url)|" README.md
+          else
+            echo "![LeetCode Stats]($chart_url)" >> README.md
+          fi
+
+          # Replace or insert solved line
+          if grep -q "**Total Solved:**" README.md; then
+            sed -i "s|**Total Solved:.*|**Total Solved:** ${{ steps.stats.outputs.solved }}|" README.md
+          else
+            echo "**Total Solved:** ${{ steps.stats.outputs.solved }}" >> README.md
+          fi
+
+      - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update LeetCode stats chart"
+          git commit -m "Update README with latest stats" || echo "No changes to commit"
           git push
